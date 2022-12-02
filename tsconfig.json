@@ -1,0 +1,37 @@
+{
+	"include": ["src"],
+	"compilerOptions": {
+		// Tells TypeScript to read JS files, as
+		// normally they are ignored as source files
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		// Generate d.ts files
+		"declaration": true,
+		// This compiler run should
+		// only output d.ts files
+		"emitDeclarationOnly": true,
+		// Types should go into this directory.
+		// Removing this would place the .d.ts files
+		// next to the .js files
+		"outDir": "dist",
+		// go to js file when using IDE functions like
+		// "Go to Definition" in VSCode
+		"declarationMap": true,
+		// Specifies the module resolution strategy:
+		// 'node' (Node.js) or 'classic' (TypeScript pre-1.6)
+		"moduleResolution": "node",
+		// Specify library files to be included in the compilation.
+		"lib": ["ES6", "DOM"],
+		// Specify JSX code generation: 'preserve', 'react-native', or 'react'
+		"jsx": "react",
+		// Specify the object invoked for createElement and __spread when targeting 'react' JSX emit
+		"reactNamespace": "React",
+		// Specify the JSX factory function to use when targeting 'react' JSX emit, e.g. 'React.createElement' or 'h'
+		"jsxFactory": "React.createElement",
+		// Specify the JSX Fragment reference to use for fragments when targeting 'react' JSX emit e.g. 'React.Fragment' or 'Fragment'
+		"jsxFragmentFactory": "React.Fragment",
+		// Specify the JSX React.Fragment reference to use for fragments when targeting 'react' JSX emit e.g. 'React.Fragment' or 'Fragment'
+		"jsxImportSource": "react"
+	},
+	"exclude": ["node_modules"]
+}

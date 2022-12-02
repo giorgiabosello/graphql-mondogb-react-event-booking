@@ -1,0 +1,27 @@
+.bookings-control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 40rem;
+	margin: 2rem auto;
+}
+
+.bookings-control button {
+	margin: 0 0.25rem;
+	background-color: unset;
+	border: unset;
+	border-bottom: 1px solid transparent;
+	color: #5101d1;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.bookings-control button:hover,
+.bookings-control button:active,
+.bookings-control button.active {
+	background-color: unset;
+	color: #36028b;
+	box-shadow: none;
+	border-color: #5101d1;
+}

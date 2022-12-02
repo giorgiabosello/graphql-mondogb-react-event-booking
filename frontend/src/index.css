@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+	width: 100%;
+	display: block;
+}
+
+.form-control label {
+	margin-bottom: 0.5rem;
+}
+
+.form-control {
+	margin-bottom: 1rem;
+}
+
+button {
+	background: #5101d1;
+	font: inherit;
+	border: 1px solid #5101d1;
+	border-radius: 3px;
+	padding: 0.25rem 1rem;
+	margin-right: 1rem;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+	color: white;
+	cursor: pointer;
+}
+
+button:hover,
+button:active,
+button.active {
+	background: #36028b;
+	border-color: #36028b;
+}
